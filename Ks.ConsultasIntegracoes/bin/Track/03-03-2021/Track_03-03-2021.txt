@@ -1,0 +1,2040 @@
+********************
+
+Hora: [13:19:15]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 80001
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:20:41]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 80001
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:22:24]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 80002
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:22:43]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 800002
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:23:03]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"MSD"
+                        order_code: 80002
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:31:21]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:31:51]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:32:02]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:33:25]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:34:06]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:34:52]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:35:25]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:58:26]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:55:59]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:56:16]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:56:28]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:56:42]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:58:23]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:00:34]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:00:44]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:11:19]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:11:29]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:11:54]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:12:11]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:11]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:12]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:36]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG BGN"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:37]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"ORG BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:47]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 2
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [15:13:48]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"BGN"
+                        order_code: 1
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+

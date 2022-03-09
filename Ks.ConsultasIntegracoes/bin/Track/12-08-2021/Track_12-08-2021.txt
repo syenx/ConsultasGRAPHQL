@@ -1,0 +1,408 @@
+********************
+
+Hora: [11:43:31]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"CGN"
+                        order_code: 2272412
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [11:43:45]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"CGN"
+                        order_code: 27769
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:55:22]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"MSD"
+                        order_code: 999983
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [13:56:18]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"MSD"
+                        order_code: 999969
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:03:57]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"MSD"
+                        order_code: 999983
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+
+********************
+
+Hora: [14:04:49]
+
+Json: [mutation groupedOrder  query order {
+                        order(
+                        industry_code:"MSD"
+                        order_code: 999983
+                        ) {
+                                        id
+                                        order_code
+                        industry_code
+                        wholesaler_branch_code
+                        customer_code
+                        status
+                        products {
+                                            ean
+                                            amount
+                        discount_percentage
+                        }
+                responses {
+                    id
+                    importation_outcome
+                consideration_code
+                products {
+                        ean
+                        invoice_ean
+                response_amount
+                unit_discount_percentage
+                unit_discount_value
+                unit_net_value
+                monitored
+                industry_consideration
+                wholesaler_consideration
+                }
+                }
+                invoices{
+                    id
+                    importation_status
+                importation_outcome
+                status
+                processed_at
+                released_on
+                danfe_key
+                code
+                value
+                discount
+                products_total_value
+                products {
+                        ean
+                        invoice_amount
+                unit_discount_percentage
+                }
+                    reimbursement_values {
+                        ean
+                        value
+                    }
+                }
+                cancellations{
+                    id
+                    imported_at
+                outcome
+                }
+            }
+        }
+
+]
+

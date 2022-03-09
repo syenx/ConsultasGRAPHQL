@@ -1,0 +1,651 @@
+********************
+
+Hora: [08:23:30]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4888238
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:23:09]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4883978
+
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:25:04]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4876303
+
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:25:23]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4876303
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:48:55]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4896399
+
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:49:29]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4896399
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:49:47]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4896399
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+
+********************
+
+Hora: [15:50:13]
+
+Json: [mutation groupedOrder  query groupedOrder{
+groupedOrder(
+id: 4896399
+) {
+id
+grouped_order_code
+client_identification
+wholesaler
+client_code
+commercial_condition
+status
+total_products
+products
+{
+ean
+ordered_quantity
+wholesaler_discount
+order_discount
+unit_net_price
+industry_order_code
+product_reason
+industry_abbreviation
+}
+responses {
+status
+processed_at
+order_motive
+total_value
+discount_value
+products {
+ean
+response_quantity
+percent_discount
+unit_discount_price
+unit_net_price
+product_status
+product_reason
+monitored
+wholesaler_reason
+importation_outcome
+}
+}
+invoices {
+processed_at
+status
+issue_date
+number
+danfe
+value
+discount_value
+products_total_value
+products {
+product_status
+ean
+invoice_quantity
+percent_discount
+  reimbursement_value
+importation_outcome
+batches {
+quantity
+identification
+due_date
+}
+}
+}
+cancellations {
+status
+products {
+ean
+status
+importation_outcome
+}
+}
+}
+}
+]
+

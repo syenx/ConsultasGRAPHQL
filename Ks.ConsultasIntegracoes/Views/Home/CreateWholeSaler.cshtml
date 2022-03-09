@@ -1,0 +1,288 @@
+﻿@model Ks.ConsultasIntegracoes.Models.ViewModelCosultar
+@{
+    ViewBag.Title = "Home Page";
+}
+<title>Consulta Fidelize</title>
+<link href="https://cdn.datatables.net/responsive/2.2.3/css/responsive.dataTables.min.css" rel="stylesheet" />
+<link href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.3/js/dataTables.responsive.min.js"></script>
+
+@Styles.Render("~/Content/DataTables")
+@Scripts.Render("~/plugins/mask")
+<div class="modal-content">
+    <div class="modal-body">
+        @if (Model.OrdersResponseWholeSaler != null)
+        {
+            <table id="wholesaler" class="display nowrap" style="width:100%">
+
+
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th class="all"> id</th>
+                        <th class="all">Código Industria</th>
+                        <th class="all">Status</th>
+                        <th class="all">Código</th>
+                        <th class="none">Produtos</th>
+                        <th class="none">Resposta</th>
+                        <th class="none">Faturas</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model.OrdersResponseWholeSaler)
+                    {
+                        if (item != null)
+                        {
+
+
+
+                            <tr>
+                                <td></td>
+                                <td> @Html.TextAreaFor(model => item.order.id, new { @class = "form-control", @readonly = "true", rows = "1", cols = "20" })</td>
+                                <td> @Html.TextAreaFor(model => item.order.industry_code, new { @class = "form-control", @readonly = "true", rows = "1", cols = "20" })</td>
+                                <td> @Html.TextAreaFor(model => item.order.status, new { @class = "form-control", @readonly = "true", rows = "1", cols = "20" })</td>
+                                <td> @Html.TextAreaFor(model => item.order.order_code, new { @class = "form-control", @readonly = "true", rows = "1", cols = "20" })</td>
+                                <td>
+                                    @foreach (var itemProducts in item.order.products)
+                                    {
+                                        <table id="productResponse">
+                                            <thead>
+                                                <tr>
+                                                    <th class="all">
+                                                       EAN
+                                                    </th>
+                                                    <th class="all">
+                                                       Desconto Percentual
+                                                    </th>
+                                                    <th class="all">
+                                                      Quantidade
+                                                    </th>
+
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+
+                                                    <td> @Html.TextAreaFor(model => itemProducts.ean, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                    <td> @Html.TextAreaFor(model => itemProducts.discount_percentage, new { @class = "form-control", @readonly = "true", rows = "2", cols = "40" })</td>
+                                                    <td> @Html.TextAreaFor(model => itemProducts.amount, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    }
+                                </td>
+                                <td>
+                                    @foreach (var response in item.order.responses)
+                                    {
+
+
+                                        if (item.order != null)
+                                        {
+
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+
+                                                    <table id="productResponse">
+                                                        <thead>
+                                                            <tr>
+
+                                                                <th class="">
+                                                                        ID
+                                                                </th>
+                                                                <th class="">
+                                                                    Código de Consideração
+                                                                </th>
+                                                                <th class="">
+                                                                    Resultado de Importação
+                                                                </th>
+
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>@Html.TextAreaFor(model => response.id, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                                <td>@Html.TextAreaFor(model => response.consideration_code, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                                <td>@Html.TextAreaFor(model => response.importation_outcome, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3>Produtos</h3>
+                                                    @foreach (var itemProducts in response.products)
+                                                    {
+                                                        <h5>Produto:</h5>
+                                                        <table id="productResponse">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="all">
+                                                                       EAN
+                                                                    </th>
+                                                                    <th class="all">
+                                                                        Consideração da Indústria
+                                                                    </th>
+                                                                  
+                                                                    <th class="all">
+                                                                        Quantidade de Resposta
+                                                                    </th>
+                                                                    <th class="all">
+                                                                        Valor Líquido Unitário
+                                                                    </th>
+                                                                    <th class="all">
+                                                                        Valor de Desconto Unitário
+                                                                    </th>
+                                                                    <th class="all">
+                                                                        Porcentagem de Desconto Unitário
+                                                                    </th>
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.ean, new { @class = "form-control", @readonly = "true", rows = "2", cols = "15" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.industry_consideration, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.response_amount, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.unit_net_value, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.unit_discount_value, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.unit_discount_percentage, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                </td>
+                                <td>
+
+                                    @foreach (var invoices in item.order.invoices)
+                                    {
+                                        if (item.order != null)
+                                        {
+
+                                            <div class="modal-content">
+                                                <div class="modal-body">
+
+                                                    <table id="productResponse">
+                                                        <thead>
+                                                            <tr>
+
+                                                                <th class="">
+                                                                  Código
+                                                                </th>
+                                                                <th class="">
+                                                                    Chave da Nota
+                                                                </th>
+                                                                <th class="">
+                                                                    Desconto
+                                                                </th>
+                                                                <th class="">
+                                                                    Resultado de importação
+                                                                </th>
+                                                                <th class="">
+                                                                    Status de Importação
+                                                                </th>
+                                                                <th class="">
+                                                                   Processado Em.
+                                                                </th>
+
+
+
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>@Html.TextAreaFor(model => invoices.id, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                <td>@Html.TextAreaFor(model => invoices.danfe_key, new { @class = "form-control", @readonly = "true", rows = "2", cols = "34" })</td>
+                                                                <td>@Html.TextAreaFor(model => invoices.discount, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                <td>@Html.TextAreaFor(model => invoices.importation_outcome, new { @class = "form-control", @readonly = "true", rows = "2", cols = "15" })</td>
+                                                                <td>@Html.TextAreaFor(model => invoices.importation_status, new { @class = "form-control", @readonly = "true", rows = "2", cols = "10" })</td>
+                                                                <td>@Html.TextAreaFor(model => invoices.processed_at, new { @class = "form-control", @readonly = "true", rows = "2", cols = "15" })</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                    <h3>Produtos</h3>
+                                                    @foreach (var itemProducts in invoices.products)
+                                                    {
+                                                        <h5>Produto:</h5>
+                                                        <table id="productResponse">
+                                                            <thead>
+                                                                <tr>
+                                                                    <th class="all">
+                                                                        EAN
+                                                                    </th>
+                                                                    <th class="all">
+                                                                       Valor da Fatura
+                                                                    </th>
+                                                                    <th class="all">
+                                                                        Porcentagem de Desconto Unitário
+                                                                    </th>
+
+
+                                                                </tr>
+                                                            </thead>
+                                                            <tbody>
+                                                                <tr>
+
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.ean, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.invoice_amount, new { @class = "form-control", @readonly = "true", rows = "2", cols = "40" })</td>
+                                                                    <td> @Html.TextAreaFor(model => itemProducts.unit_discount_percentage, new { @class = "form-control", @readonly = "true", rows = "2", cols = "20" })</td>
+
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    }
+
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+
+                                </td>
+                            </tr>
+                        }
+                    }
+
+                </tbody>
+
+            </table>
+        }
+    </div>
+</div>
+@Styles.Render("~/Content/plugins/iCheck/iCheckStyles")
+@Styles.Render("~/plugins/dataPickerStyles")
+@Styles.Render("~/plugins/slickStyles")
+@Styles.Render("~/plugins/slickThemeStyles")
+
+@Scripts.Render("~/plugins/iCheck")
+@Scripts.Render("~/plugins/validate")
+@Scripts.Render("~/plugins/dataPicker")
+@Scripts.Render("~/plugins/slick")
+<script>
+    var wholesaler = $('#wholesaler').DataTable({
+        responsive: {
+            details: {
+                type: 'column'
+            }
+        },
+        columnDefs: [{
+            className: 'control',
+            orderable: false,
+            targets: 0
+        }],
+        order: [1, 'asc']
+    });
+    function expandCollapseAll() {
+        wholesaler.rows('.parent').nodes().to$().find('td:first-child').trigger('click').length ||
+            wholesaler.rows(':not(.parent)').nodes().to$().find('td:first-child').trigger('click')
+
+    }
+</script>
+

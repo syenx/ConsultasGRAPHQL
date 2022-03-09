@@ -1,0 +1,180 @@
+﻿
+@model Ks.ConsultasIntegracoes.Models.ViewModelCosultar
+
+<div style="margin:0 0 0 0; padding: 0 0 0 0; height:auto; width:100%">
+
+    <div class="modal-content" id="divAutenticador" style="display:block">
+        <div class="modal-header">
+
+
+            <h1>Consulta Fidelize  Autorizador</h1>
+        </div>
+
+        <div class="modal-body">
+
+            <form action="@Url.Action("CreateAutorizador")" method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Código Autorizador</h5>
+                        <p>
+                            @Html.TextAreaFor(model => model.numero_order, new { Title = "DADOS PODERÃO SER ENCONTRADOS NA TABELA KSPrePedidoFidelize", rows = "2", cols = "160" })
+                        </p>
+                    </div>
+                    <div class="row-no-gutters">
+                        <p style=" margin:0 10px 0 10px ">
+
+                            <button type="submit" id="consultarRetorno" class="btn btn-danger btn-lg btn-block">Consultar</button>
+                            <button type="button" id="btnlimparCampo" class="btn btn-info btn-lg btn-block">Limpar</button>
+
+
+
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        @Html.Partial(@"~/Views/Home/CreateAutorizador.cshtml", Model)
+    </div>
+
+    <div class="modal-content" id="divWholeSaler" style="display:none">
+        <div class="modal-header">
+
+            <h1>Consulta Fidelize WholeSaler</h1>
+        </div>
+
+        <div class="modal-body">
+
+            <form action="@Url.Action("CreateWholeSaler")" method="post">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h5>Código WholeSaler </h5>
+                        <p>
+                            @Html.TextAreaFor(model => model.numero_invoice, new { Title = "DADOS PODERÃO SER ENCONTRADOS NA TABELA KSPedidoFidelize", rows = "2", cols = "100" })
+                        </p>
+                    </div>
+                    <div class="col-md-10">
+                        <h5>Sigla </h5>
+                        <p>
+                            @Html.TextAreaFor(model => model.insdutryCode, new { Title = "DADOS PODERÃO SER ENCONTRADOS NA TABELA KSPedidoFidelize", rows = "2", cols = "50" })
+                        </p>
+                    </div>
+                    <div class="row-no-gutters">
+                        <p style=" margin:0 10px 0 10px ">
+
+                            <button type="submit" id="consultarRetornoWhosaler" class="btn btn-danger btn-lg btn-block">Consultar</button>
+                            <button type="button" id="btnlimparCampoInvoice" class="btn btn-info btn-lg btn-block">Limpar</button>
+
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div>
+        @Html.Partial(@"~/Views/Home/CreateWholeSaler.cshtml", Model)
+
+    </div>
+</div>
+<script type="text/javascript">
+
+    $("#loginsRemoveTela").click(function () {
+        $("#loginTela").css("display", "none");
+    });
+
+    $("#btnlimparCampoInvoice").click(function () {
+        $("#numero_invoice").val("");
+        $("#wholesaler").remove();
+    });
+
+    $("#btnlimparCampo").click(function () {
+        $("#numero_order").val("");
+        $("#autorizador").remove();
+    });
+
+    $("#consultarRetorno").click(function () {
+
+        $("#BloCkTela").css("display", "block");
+    });
+
+    $("#consultarRetornoWhosaler").click(function () {
+
+        if ($("#numero_invoice").val() === "") {
+            alert("Campo Código WholeSaler, é obrigatório!");
+        }
+        if ($("#insdutryCode").val() === "") {
+            alert("Campo Sigla, é obrigatório!");
+        }
+
+        $("#BloCkTela").css("display", "block");
+    });
+
+
+    $("#liAutenticador").click(function () {
+        $("#divAutenticador").css("display", "block");
+
+        $("#divWholeSaler").css("display", "none");
+
+        $("#liAutenticador").addClass("active");
+        $("#liWholesaler").removeClass("active");
+    });
+
+    $("#liWholesaler").click(function () {
+        $("#divWholeSaler").css("display", "block");
+        $("#divAutenticador").css("display", "none");
+
+
+        $("#liAutenticador").removeClass("active");
+        $("#liWholesaler").addClass("active");
+    });
+
+    $("#linkAutorizador").click(function () {
+        $("#divAutenticador").css("display", "block");
+
+        $("#divWholeSaler").css("display", "none");
+
+        $("#liAutenticador").addClass("active");
+        $("#liWholesaler").removeClass("active");
+    });
+
+    $("#linkWholeSaler").click(function () {
+        $("#divWholeSaler").css("display", "block");
+        $("#divAutenticador").css("display", "none");
+
+
+        $("#liAutenticador").removeClass("active");
+        $("#liWholesaler").addClass("active");
+    });
+
+
+    $(document).ready(function () {
+
+        $("#linkLogout").css("display", "block");
+        $("#linkAutorizador").css("display", "block");
+        $("#linkWholeSaler").css("display", "block");
+
+        if (window.location.href.toLowerCase().search('wholesaler') > 1) {
+            $("#divWholeSaler").css("display", "block");
+            $("#divAutenticador").css("display", "none");
+            $("#linkLogout").css("display", "block");
+
+
+            $("#liAutenticador").removeClass("active");
+            $("#liWholesaler").addClass("active");
+
+        }
+        else {
+            $("#linkLogout").css("display", "block");
+            $("#divAutenticador").css("display", "block");
+
+            $("#divWholeSaler").css("display", "none");
+
+            $("#liAutenticador").addClass("active");
+            $("#liWholesaler").removeClass("active");
+        }
+
+        if (window.location.href.toLowerCase().search('logar') > 1) {
+            $("#linkLogout").css("display", "none");
+
+        }
+
+    });
+
+</script>
